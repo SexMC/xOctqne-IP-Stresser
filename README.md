@@ -29,8 +29,6 @@ xOctqne-IP-Stresser is an IP address stress testing tool that uses ICMP attacks 
 
 - Windows operating system.
 - Administrative privileges to run network-based commands.
-- Python 3.x installed on your system.
-- Necessary Python libraries (can be installed via `requirements.txt`).
 
 ## Installation
 
@@ -50,10 +48,10 @@ xOctqne-IP-Stresser is an IP address stress testing tool that uses ICMP attacks 
 To initiate the stress test, simply run the provided batch file. The batch file will execute the necessary scripts to start the ICMP DDoS attack.
 
 1. Open a command prompt with administrative privileges.
-2. Navigate to the directory where `Stresser.bat` is located.
+2. Navigate to the directory where `stresser.bat` is located.
 3. Execute the batch file:
    ```sh
-   Stresser.bat
+   stresser.bat
    ```
 
 ## Examples
