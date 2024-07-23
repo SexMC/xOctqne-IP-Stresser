@@ -1,7 +1,3 @@
-Sure, here is a comprehensive README for your GitHub repository, xOctqne-IP-Stresser:
-
----
-
 # xOctqne-IP-Stresser
 
 xOctqne-IP-Stresser is an IP address stress testing tool that uses ICMP attacks to simulate Distributed Denial of Service (DDoS) attacks. This tool can help network administrators test the resilience of their networks against ICMP-based DDoS attacks.
