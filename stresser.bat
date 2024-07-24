@@ -1,7 +1,8 @@
 @echo off
-set /p id=Enter IP Address: 
-echo Now stressing %id%...
+setlocal enabledelayedexpansion
 
-:x
-ping %id%
-goto x
+set /p "id=Enter IP Address: "
+
+:stress
+ping !id! -n 1
+goto stress
